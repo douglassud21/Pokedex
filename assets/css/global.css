@@ -5,19 +5,35 @@
   }
 
   body {
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(226, 224, 224);
   }
 
   .content {
     padding: 1rem;
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(226, 224, 224);
     height:  100vh;
     width: 100vw;
   }
 
   .content h1 {
-    margin: 0;
-  }
+    font-size: 2.5rem; /* Tamanho maior para chamar atenção */
+    font-weight: bold; /* Deixa o título mais forte */
+    color: rgb(143, 8, 143); /* Cor de destaque */
+    text-align: center; /* Centraliza o texto */
+    text-transform: uppercase; /* Coloca todas as letras em maiúsculas */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+    margin: 0; /* Mantém o zero do margin */
+    padding: 10px 0; /* Adiciona espaçamento interno para respirar */
+    background: linear-gradient(90deg, rgba(143, 8, 143, 0.1), rgba(143, 8, 143, 0.3)); /* Fundo com gradiente suave */
+    border-radius: 8px; /* Arredonda levemente as bordas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para efeito de profundidade */
+    transition: transform 0.3s ease; /* Transição suave para o hover */
+}
+
+.content h1:hover {
+  transform: scale(1.05); /* Aumenta levemente o título no hover */
+  color: rgb(196, 78, 196); /* Muda a cor no hover */
+}
 
   @media screen and (min-width: 992px) {
     .content {

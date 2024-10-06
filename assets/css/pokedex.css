@@ -18,14 +18,13 @@
   }
 
   .pokemon .number {
-    color: #017756;
     text-align: right;
     font-size: .625rem;
   }
 
   .pokemon .name {
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0;
     text-transform: capitalize;
   }
@@ -44,15 +43,25 @@
   }
 
   .pokemon .detail .types .type {
-    color: #fff;
-    font-weight: 500;
-    padding: .25rem .5rem;
-    margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 1rem;
-    filter: brightness(1.1);
-    text-align: center;
-  }
+    color: #ffffffdc; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte */
+    padding: .25rem .5rem; /* Espaçamento interno */
+    margin: .25rem 0; /* Margem */
+    font-size: .725rem; /* Tamanho da fonte */
+    border-radius: 1rem; /* Bordas arredondadas */
+    filter: brightness(1.1); /* Brilho */
+    text-align: center; /* Centraliza o texto */
+    border: #ffffff6b solid 1px; /* Borda */
+    transition: all 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Efeito de hover */
+.pokemon .detail .types .type:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Fundo semitransparente no hover */
+  transform: scale(1.05); /* Aumenta levemente o elemento */
+  border-color: #ffffff; /* Muda a cor da borda no hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+}
 
   .pokemon .detail img {
     max-width: 100%;
@@ -65,18 +74,29 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .pagination button {
-    background-color: plum;
+    background-color: rgb(196, 78, 196);
     color: white;
     border: none;
     border-radius: 1rem;
-    padding: .25rem .5rem;
-    font-size: .625rem;
+    padding: .30rem .7rem;
+    font-size: .725rem;
     margin: .25rem 0;
-  }
+    cursor: pointer;
+    transition: all 0.3s ease;  /* Transição suave para as alterações */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra suave ao redor do botão */
+}
+
+.pagination button:hover {
+  background-color: rgb(255, 255, 255);  /* Muda para branco no hover */
+  color: rgb(196, 78, 196);  /* Muda o texto para a cor original do fundo */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Sombra mais profunda no hover */
+  transform: scale(1.05);  /* Aumenta levemente o botão no hover */
+  border: 2px solid rgb(196, 78, 196);  /* Adiciona uma borda colorida */
+}
 
   @media screen and (min-width: 380px) {
     .pokemons {

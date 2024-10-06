@@ -1,55 +1,55 @@
 
-.normal{
-    background-color: #a6a877;
+.normal {
+    background-color: #b5b59e; /* Metálico prateado com toque quente */
 }
 .grass {
-    background-color:#77c850;
+    background-color: #68ce02; /* Verde metálico brilhante e vívido */
 }
 .fire {
-    background-color:#ee7f30;
+    background-color: #ff5733; /* Laranja metálico flamejante */
 }
 .water {
-    background-color:#678fee;
+    background-color: #3399ff; /* Azul metálico elétrico */
 }
 .electric {
-    background-color: #f7cf2e;
+    background-color: #f0cc04; /* Amarelo metálico dourado brilhante */
 }
 .ice {
-    background-color:#98d5d7;
+    background-color: #a3e4f9; /* Azul gelo metálico e cristalino */
 }
 .ground {
-    background-color: #dfbf69;
+    background-color: #cc9966; /* Bronze metálico vibrante */
 }
 .flying {
-    background-color: #a98ff0;
+    background-color: #9370db; /* Roxo metálico forte */
 }
 .poison {
-    background-color: #a040a0;
+    background-color: #c71585; /* Magenta metálico intenso */
 }
-.figtht {
-    background-color:ing #bf3029;
+.fighting {
+    background-color: #d33902; /* Vermelho metálico ardente */
 }
-.psychi {
-    background-color:c #f65687;
+.psychic {
+    background-color: #ff69b4; /* Rosa metálico neon */
 }
 .dark {
-    background-color:#725847;
+    background-color: #252525; /* Marrom metálico profundo e forte */
 }
 .rock {
-    background-color:#b8a137;
+    background-color: #666054; /* Metálico dourado escuro */
 }
 .bug {
-    background-color:#a8b720;
+    background-color: #a6cf53; /* Verde metálico luminoso */
 }
 .ghost {
-    background-color:#6e5896;
+    background-color: #8a2be2; /* Roxo metálico intenso */
 }
 .steel {
-    background-color:#b9b7cf;
+    background-color: #c0c0c0; /* Prata metálica brilhante */
 }
-.dragon{
-    background-color: #6f38f6;
+.dragon {
+    background-color: #6a0dad; /* Púrpura metálico real */
 }
 .fairy {
-    background-color:#f9aec7;
+    background-color: #ffb6c1; /* Rosa metálico suave com brilho */
 }
