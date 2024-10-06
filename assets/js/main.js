@@ -1,14 +1,10 @@
 
 const pokemonList = document.getElementById ('pokemonList')
 const loadMoreButton = document.getElementById ('loadMoreButton')
-const limit = 5;
+const limit = 5; //Limite de pokemons por vez
 let offset = 0;
 
-const maxRecords = 1080;
-
-
-
-//Capturando os Pokemons da lista.
+const maxRecords = 1080; //Define quantos pokemons serão listados
 
 function loadPokemonItens (offset, limit) {
 
