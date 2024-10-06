@@ -1,4 +1,5 @@
 
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,7 +11,6 @@
   .pokemon {
     margin: .5rem;
     padding: 1rem;
-    background-color: #09BC8A;
     color: white;
     border-radius: 1rem;
     display: flex;
@@ -27,6 +27,7 @@
     color: #fff;
     font-weight: 600;
     margin-bottom: 0;
+    text-transform: capitalize;
   }
 
   .pokemon .detail {
@@ -43,13 +44,14 @@
   }
 
   .pokemon .detail .types .type {
-    background-color: #017756;
     color: #fff;
     font-weight: 500;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
   }
 
   .pokemon .detail img {
